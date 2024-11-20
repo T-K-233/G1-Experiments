@@ -1,4 +1,4 @@
-"""Installation script for the 'g1_template' python package."""
+"""Installation script for the 'g1_exp_variable_frequency' python package."""
 
 import os
 import toml
@@ -18,8 +18,8 @@ INSTALL_REQUIRES = [
 
 # Installation operation
 setup(
-    name="g1_template",
-    packages=["g1_template"],
+    name="g1_exp_variable_frequency",
+    packages=["g1_exp_variable_frequency"],
     author=EXTENSION_TOML_DATA["package"]["author"],
     maintainer=EXTENSION_TOML_DATA["package"]["maintainer"],
     url=EXTENSION_TOML_DATA["package"]["repository"],
