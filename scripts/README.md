@@ -32,3 +32,16 @@
 | c_phy_50_pol_12_5_roll_0_48    | 4              | 0.02       |  6                      | 50 Hz               | 12.5 Hz                 | 0.48 s                  |
 
 
+
+## Experiment D: Only Changing Physics Frequency
+
+| Name                           | env.decimation | env.sim.dt | agent.num_steps_per_env | Equiv. Physics Rate | Equiv. Policy Frequency | Equiv. Rollout Duration |
+|--------------------------------|----------------|------------|-------------------------|---------------------|-------------------------|-------------------------|
+| d_phy_800_pol_50_roll_0_48     | 16             | 0.00125    | 24                      | 800 Hz              | 50 Hz                   | 0.48 s                  |
+| d_phy_400_pol_50_roll_0_48     | 8              | 0.0025     | 24                      | 400 Hz              | 50 Hz                   | 0.48 s                  |
+| d_phy_200_pol_50_roll_0_48     | 4              | 0.005      | 24                      | 200 Hz              | 50 Hz                   | 0.48 s                  |
+| d_phy_100_pol_50_roll_0_48     | 2              | 0.01       | 24                      | 100 Hz              | 50 Hz                   | 0.48 s                  |
+| d_phy_50_pol_50_roll_0_48      | 1              | 0.02       | 24                      | 50 Hz               | 50 Hz                   | 0.48 s                  |
+
+
+
